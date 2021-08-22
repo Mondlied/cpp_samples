@@ -46,6 +46,7 @@ cpp_samples_component(Programs DIRECTORY programs
 
 foreach(_DIR IN ITEMS
     collections/linked_list
+    variant
 )
     include("${_DIR}/sources.cmake")
 endforeach()
